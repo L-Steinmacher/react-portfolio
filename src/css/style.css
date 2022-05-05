@@ -79,6 +79,13 @@ section {
   text-align: center !important;
 }
 
+.icon {
+  color: #00b8d4;
+  height: 2rem;
+  width: 2rem;
+  margin: 0 10px;
+}
+
 .is-fullheight {
   min-height: 100vh;
 }

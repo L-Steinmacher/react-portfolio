@@ -5,6 +5,7 @@ import Footer from './Footer';
 import Navbar from './Navbar';
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { solid, regular, brands } from '@fortawesome/fontawesome-svg-core/import.macro'
 
 function Home() {
   return (
@@ -24,13 +25,13 @@ function Home() {
           <div className='fade-in three'>
             <div className='social-icons'>
               <a href='https://twitter.com/LucasSteinmach1'>
-
+                <FontAwesomeIcon icon={brands('twitter')} />
               </a>
               <a href='https://www.linkedin.com/in/lucas-l-steinmacher/'>
 
               </a>
               <a href='https://github.com/L-Steinmacher'>
-                <i class="fa-brands fa-github" />
+                <FontAwesomeIcon icon="fa-brands fa-github" />
               </a>
             </div>
           </div>
