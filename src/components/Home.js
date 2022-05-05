@@ -1,11 +1,12 @@
 import React from 'react';
 import About from './About';
 import Contact from './Contact';
+import Navbar from './Navbar';
 
 function Home() {
   return (
     <div>
-      <section id='top' className='hero is-full height' >
+      <section id='top' className='hero is-fullheight' >
         <div className='container'>
           <div className='fade-in one'>
             <h1>
@@ -29,11 +30,7 @@ function Home() {
 
               </a>
             </div>
-            <div className='container'>
-              <nav className='navbar' >
-                <a href='#about' >About</a>
-              </nav>
-            </div>
+           <Navbar />
           </div>
           
         </div>
