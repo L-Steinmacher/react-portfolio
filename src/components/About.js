@@ -1,11 +1,13 @@
 import React from 'react'
+import image from '../assets/Lucas_web2-.jpg'
 
 function About() {
   return (
     <div id='about' className='container'>
         <h3>About</h3>
         <div className='about-body'>
-          <img src='../assets/' />
+          <img src={image} height="400" />
+          
           <p>
             I'm baby tofu pabst ugh street art godard letterpress glossier listicle jean shorts you probably haven't heard of them poutine chartreuse. Food truck wayfarers squid, migas tote bag keffiyeh chicharrones subway tile fashion axe. Authentic sartorial adaptogen, hammock hell of craft beer tbh slow-carb iceland williamsburg mumblecore vape blue bottle waistcoat. Af forage coloring book kogi umami artisan hashtag tbh tofu. Street art chicharrones air plant schlitz roof party thundercats marfa tonx. Drinking vinegar sriracha jianbing VHS.
             <br/>
