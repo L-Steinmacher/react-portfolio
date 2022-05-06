@@ -1,11 +1,16 @@
 import React from 'react'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faCoffee, faHeart } from '@fortawesome/free-solid-svg-icons'
+
 
 function Footer() {
+  const coffee = <FontAwesomeIcon icon={faCoffee} className='footer-icon' />
+  const heart = <FontAwesomeIcon icon={faHeart} className='footer-icon' />
   return (
-    <div id='footer' className='container'>
+    <div id='footer' className='container has-text-centered'>
         <hr/>
-        Made with <FontAwesomeIcon icon="fa-solid fa-heart" className='icon'/> and coffee by Panz.
+        <p className='footer-text' >Made with {heart} and {coffee} by Panz.</p> 
     </div>
   )
 }

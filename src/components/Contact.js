@@ -2,9 +2,9 @@ import React from 'react'
 
 function Contact() {
   return (
-    <div id='contact' className='container'>
+    <div id='contact' className='container section'>
       <hr/>
-      <h3>Contact</h3>
+      <h3 className='has-text-centered title' >Contact</h3>
     </div>
   )
 }

@@ -1,4 +1,3 @@
-import './App.css';
 import './css/style.css';
 import { Route, Routes, NavLink, Link } from 'react-router-dom';
 
