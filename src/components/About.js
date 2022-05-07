@@ -6,7 +6,7 @@ import { faArrowAltCircleUp } from '@fortawesome/free-regular-svg-icons';
 
 function About() {
   return (
-    <div id='about' className='container section'>
+    <div id='about' className='container'>
         <h3 className='has-text-centered title ' >About</h3>
         <div className='about-body has-text-justify'>
           <img src={image}  />
