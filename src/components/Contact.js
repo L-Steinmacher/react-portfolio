@@ -9,7 +9,7 @@ function Contact() {
       <div className='container'>
         <h3 className='has-text-centered title' >Contact</h3>
       </div>
-      <div className='social-icons'>
+      <div className='social-icons has-text-centered'>
         <a href='#top'>
           <FontAwesomeIcon icon={faArrowAltCircleUp} className='social-icon' />
         </a>

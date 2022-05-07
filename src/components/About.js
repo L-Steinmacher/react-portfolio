@@ -29,7 +29,7 @@ function About() {
           </div>
           
         </div>
-        <div className='social-icons'>
+        <div className='social-icons has-text-centered'>
           <a href='#top'>
             <FontAwesomeIcon icon={faArrowAltCircleUp} className='social-icon' />
           </a>

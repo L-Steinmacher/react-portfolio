@@ -53,6 +53,9 @@ section {
 .container {
   margin: 0 auto;
   width: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 @keyframes fadeIn {
@@ -95,7 +98,8 @@ section {
   align-items: stretch;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
+  padding: 3rem 1.5rem;
   flex-grow: 1;
   flex-shrink: 0;
 }
@@ -114,6 +118,8 @@ section {
 
 .is-fullheight {
   min-height: 100vh;
+  display: flex;
+  align-content: center;
 }
 
 .navbar-menu {
