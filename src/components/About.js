@@ -1,5 +1,8 @@
 import React from 'react'
 import image from '../assets/Lucas_web2-.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowAltCircleUp } from '@fortawesome/free-regular-svg-icons';
+<FontAwesomeIcon icon={faArrowAltCircleUp} />
 
 function About() {
   return (
@@ -25,6 +28,11 @@ function About() {
             </p>
           </div>
           
+        </div>
+        <div className='social-icons'>
+          <a href='#top'>
+            <FontAwesomeIcon icon={faArrowAltCircleUp} className='social-icon' />
+          </a>
         </div>
     </div>
   )

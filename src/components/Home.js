@@ -9,7 +9,7 @@ import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-ic
 
 function Home() {
   return (
-    <div className='hero-head'>
+    <div className='hero-head' id='top'>
       <section id='top' className='hero is-fullheight' >
         <div className='container has-text-centered section'>
           <div className='fade-in one'>
