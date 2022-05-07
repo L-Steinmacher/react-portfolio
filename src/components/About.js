@@ -1,9 +1,12 @@
 import React from 'react'
 import image from '../assets/Lucas_web2-.jpg'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowAltCircleUp } from '@fortawesome/free-regular-svg-icons';
+<FontAwesomeIcon icon={faArrowAltCircleUp} />
 
 function About() {
   return (
-    <div id='about' className='container section'>
+    <div id='about' className='container'>
         <h3 className='has-text-centered title ' >About</h3>
         <div className='about-body has-text-justify'>
           <img src={image}  />
@@ -25,6 +28,11 @@ function About() {
             </p>
           </div>
           
+        </div>
+        <div className='social-icons has-text-centered'>
+          <a href='#top'>
+            <FontAwesomeIcon icon={faArrowAltCircleUp} className='social-icon' />
+          </a>
         </div>
     </div>
   )
