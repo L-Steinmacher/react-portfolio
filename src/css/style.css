@@ -6,9 +6,9 @@
 }
 
 body {
-  background-color: #f4f4f4;
+  background-color: #222222;
   font-family: "Nunito Sans", sans-serif;
-  color: #4a4a4a;
+  color: #fefefe;
   font-size: 1em;
   font-weight: 300;
   line-height: 1.5;
@@ -16,7 +16,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #222222;
+  color: #fefefe;
 }
 
 a:hover {
@@ -25,7 +25,7 @@ a:hover {
 }
 
 a:active {
-  color: #222222;
+  color: #fefefe;
 }
 
 hr {
@@ -170,7 +170,7 @@ section {
 }
 
 .social-icon:hover {
-  color: #222222;
+  color: #fefefe;
 }
 
 .social-icon:active {
@@ -186,7 +186,7 @@ section {
 }
 
 .title {
-  color: #363636;
+  color: #fefefe;
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.125;

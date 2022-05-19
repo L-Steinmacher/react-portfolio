@@ -2,7 +2,7 @@ import React from 'react'
 
  function Navbar() {
   return (
-    <div className='container fade-in three hero-foot' id='navMenu'>
+    <div className='container fade-in three' id='navMenu'>
       <hr/>
         <nav className='navbar' >
             <div className='navbar-menu' >
