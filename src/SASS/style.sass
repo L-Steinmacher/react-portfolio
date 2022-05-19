@@ -1,10 +1,34 @@
-$body-color: #f4f4f4
+// $themes: (
+//     $light-theme: (
+//         $body-color: #fefefe
+//         $primary-text: #222222),
+            
+//     $dark-theme: (
+//         $primary-text: #fefefe
+//         $body-color: #222222)
+// );
+    
+    
+    
+    // $body-color: #fefefe
+// $body-color: #222222
 $blue-icon: #00b8d4
-$primary-text: #222222
+// $primary-text: #222222
+// $primary-text: #fefefe
 $secondary-text: #efefef
 $primary-border: #dbdbdb
 $font-stack: 'Nunito Sans', sans-serif
-$link-hover: #9d9d9d
+$link-hover: #9d9d9d    
+
+@media (prefers-color-scheme: light)
+    body 
+        $body-color: #fefefe
+        $primary-text: #222222
+
+@media (prefers-color-scheme: dark)
+    body
+        $primary-text: #fefefe
+        $body-color: #222222
 
 * 
     box-sizing: border-box
@@ -15,7 +39,7 @@ $link-hover: #9d9d9d
 body
     background-color: $body-color
     font-family: $font-stack
-    color: #4a4a4a
+    color: $primary-text
     font-size: 1em
     font-weight: 300
     line-height: 1.5
@@ -107,15 +131,9 @@ section
 
 .hero
     align-items: stretch
-    // align-content: space-around
     display: flex
     flex-direction: column
     justify-content: space-between
-    // flex-grow: 1
-    // flex-shrink: 0
-
-.hero-foot
-    
 
 .has-padding
     padding: 1em
@@ -140,9 +158,9 @@ section
     width: auto
 
 .section 
-    flex-grow: 1;
-    flex-shrink: 0;
-    padding: 3rem 1.5rem;
+    flex-grow: 1
+    flex-shrink: 0
+    padding: 3rem 1.5rem
 
 .social-icon
     height: 1.5rem
@@ -161,7 +179,7 @@ section
     font-size: 2.5rem
 
 .title
-    color: #363636
+    color: $primary-text
     font-size: 2rem
     font-weight: 300
     line-height: 1.125
