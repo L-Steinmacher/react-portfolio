@@ -3,8 +3,7 @@ import About from './About';
 import Contact from './Contact';
 import Footer from './Footer';
 import Navbar from './Navbar';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub, faTwitter, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import Socials from './Socials';
 
 
 function Home() {
@@ -23,17 +22,7 @@ function Home() {
             </p >
           </div>
           <div className='fade-in three'>
-            <div className='social-icons'>
-              <a href='https://twitter.com/LucasSteinmach1'  className='social-icon'>
-                <FontAwesomeIcon icon={faTwitter} className='social-icon'  /> 
-              </a>
-              <a href='https://www.linkedin.com/in/lucas-l-steinmacher/' className='social-icon' >
-                <FontAwesomeIcon icon={faLinkedin} className='social-icon' size='2x' color='#00b8d4' />
-              </a>
-              <a href='https://github.com/L-Steinmacher' className='social-icon' >
-                <FontAwesomeIcon icon={faGithub} className='social-icon' size='2x' color='#00b8d4' />
-              </a>
-            </div>
+            <Socials />
           </div>
         </div>
         <Navbar />
