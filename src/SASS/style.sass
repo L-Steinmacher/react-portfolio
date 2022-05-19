@@ -4,11 +4,13 @@ $primary-text: #222222
 $secondary-text: #efefef
 $primary-border: #dbdbdb
 $font-stack: 'Nunito Sans', sans-serif
+$link-hover: #9d9d9d
 
 * 
     box-sizing: border-box
     margin: 0
     padding: 0
+    scroll-behavior: smooth
 
 body
     background-color: $body-color
@@ -21,6 +23,11 @@ body
 a 
     text-decoration: none
     color: $primary-text
+    &:hover
+        color: $link-hover
+        font-style: none
+    &:active
+        color: $primary-text
 
 hr 
   background-color: $primary-border
@@ -52,21 +59,34 @@ section
     //     font-size: 3rem
     //     text-align: center
 
+.contact
+    min-height: 30vh
+    display: flex
+    align-content: space-around
+
+.contact-body
+    display: flex
+    flex-direction: column
+    align-content: space-around
+
 .container
     margin: 0 auto
-    width: 1000px 
+    width: 1000px
     display: flex
     flex-direction: column
     justify-content: center
 
-.email
-    color:$blue-icon
-        
+.email 
+    a
+        color: $blue-icon
+        font-size: 2em
+
 @keyframes fadeIn
     from
         opacity: 0
     to
         opacity: 1
+
 .fade-in
     opacity: 0
     animation: fadeIn ease-in 1
@@ -87,15 +107,21 @@ section
 
 .hero
     align-items: stretch
+    // align-content: space-around
     display: flex
     flex-direction: column
-    justify-content: center
-    flex-grow: 1
-    flex-shrink: 0
+    justify-content: space-between
+    // flex-grow: 1
+    // flex-shrink: 0
 
+.hero-foot
+    
 
 .has-padding
     padding: 1em
+
+.has-padding-top
+    padding-top: 2em
 
 .has-text-centered 
     text-align: center !important
@@ -114,18 +140,22 @@ section
     width: auto
 
 .section 
-  padding: 3rem 1.5rem
+    flex-grow: 1;
+    flex-shrink: 0;
+    padding: 3rem 1.5rem;
 
 .social-icon
     height: 1.5rem
     width: 1.5rem
     margin: 0 10px
+    color: $blue-icon
+    &:hover
+        color: $primary-text
+    &:active
+        color: $blue-icon
 
 .social-icons
     padding: 0 10px
-    a
-        margin: 0 5px
-        color: $blue-icon
 
 .subtitle
     font-size: 2.5rem
