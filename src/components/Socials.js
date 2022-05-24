@@ -14,9 +14,9 @@ function Socials() {
         <a href='https://github.com/L-Steinmacher' className='social-icon' >
             <FontAwesomeIcon icon={faGithub} className='social-icon' size='2x' color='#00b8d4' />
         </a>
-        {/* <a href='https://www.twitch.tv/panziewanz' className='social-icon' >
+        <a href='https://www.twitch.tv/panziewanz' className='social-icon' >
         <FontAwesomeIcon icon={faTwitch} className='social-icon' size='2x' color='#00b8d4' />
-        </a> */}
+        </a>
     </div>
   )
 }

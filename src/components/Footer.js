@@ -8,7 +8,7 @@ function Footer() {
   const coffee = <FontAwesomeIcon icon={faCoffee} className='footer-icon' />
   const heart = <FontAwesomeIcon icon={faHeart} className='footer-icon' />
   return (
-    <div id='footer' className='container has-text-centered has-padding'>
+    <div id='footer' className='has-text-centered has-bottom-padding'>
         <hr/>
         <p className='footer-text' >Made with {heart} and {coffee} by Panz.</p> 
     </div>
