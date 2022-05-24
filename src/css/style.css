@@ -6,9 +6,9 @@
 }
 
 body {
-  background-color: #222222;
+  background-color: #fefefe;
   font-family: "Nunito Sans", sans-serif;
-  color: #fefefe;
+  color: #222222;
   font-size: 1em;
   font-weight: 300;
   line-height: 1.5;
@@ -16,16 +16,14 @@ body {
 
 a {
   text-decoration: none;
-  color: #fefefe;
+  color: #222222;
 }
-
 a:hover {
   color: #9d9d9d;
   font-style: none;
 }
-
 a:active {
-  color: #fefefe;
+  color: #222222;
 }
 
 hr {
@@ -49,7 +47,6 @@ section {
 .about-body {
   display: flex;
   flex-direction: row;
-  padding: 1em;
   align-items: center;
 }
 
@@ -70,6 +67,7 @@ section {
   display: flex;
   flex-direction: column;
   align-content: space-around;
+  padding: 1em;
 }
 
 .container {
@@ -93,22 +91,18 @@ section {
     opacity: 1;
   }
 }
-
 .fade-in {
   opacity: 0;
   animation: fadeIn ease-in 1;
   animation-fill-mode: forwards;
   animation-duration: 1s;
 }
-
 .fade-in.one {
   animation-delay: 0.7s;
 }
-
 .fade-in.two {
   animation-delay: 1.4s;
 }
-
 .fade-in.three {
   animation-delay: 1.8s;
 }
@@ -130,6 +124,10 @@ section {
 
 .has-padding {
   padding: 1em;
+}
+
+.has-bottom-padding {
+  padding-bottom: 1.5em;
 }
 
 .has-padding-top {
@@ -168,11 +166,9 @@ section {
   margin: 0 10px;
   color: #00b8d4;
 }
-
 .social-icon:hover {
-  color: #fefefe;
+  color: #222222;
 }
-
 .social-icon:active {
   color: #00b8d4;
 }
@@ -186,8 +182,10 @@ section {
 }
 
 .title {
-  color: #fefefe;
+  color: #222222;
   font-size: 2rem;
   font-weight: 300;
   line-height: 1.125;
 }
+
+/*# sourceMappingURL=style.css.map */
