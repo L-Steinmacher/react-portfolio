@@ -28,9 +28,13 @@ $link-hover: #9d9d9d
         $primary-text: #fefefe
         $body-color: #222222
 
-// @media screen {
-    
-// }
+$bp-phone: 640px
+$bp-tablet: 768px
+$bp-desktop: 1024px !default
+
+@media (max-width: $bp-tablet) 
+    body
+        background: red
 
 * 
     box-sizing: border-box
@@ -45,6 +49,7 @@ body
     font-size: 1em
     font-weight: 300
     line-height: 1.5
+
 
 a 
     text-decoration: none
@@ -73,7 +78,6 @@ section
 .about-body
     display: flex
     flex-direction: row
-    // padding: 1em
     align-items: center
 
 .bold-title
@@ -96,12 +100,9 @@ section
     align-content: space-around
     padding: 1em
 
-// .contact-title
-//     padding: 1em
-
 .container
     margin: 0 auto
-    width: 1000px
+    width: 90%
     display: flex
     flex-direction: column
     justify-content: center
